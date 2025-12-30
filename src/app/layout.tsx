@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'CyberNexus',
   description: 'Secure, scalable, and smart technology solutions',
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
